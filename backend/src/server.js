@@ -42,7 +42,7 @@ app.get('/api/health', (req, res) => {
 // POST /api/chat
 // Toggle this to control Python Integration
 // -------------------------------------------------
-const PYTHON_INTEGRATION_ENABLED = true;
+const PYTHON_INTEGRATION_ENABLED = false;
 
 app.post('/api/chat', async (req, res) => {
   try {
